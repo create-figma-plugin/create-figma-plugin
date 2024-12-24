@@ -37,13 +37,15 @@ export function once<Handler extends EventHandler>(
   handler: Handler['handler']
 ): () => void {
   let done = false
-  return on(name, function (...args): void {
+  const dispose = on(name, function (...args): void {
     if (done === true) {
       return
     }
     done = true
+    dispose()
     handler(...args)
-  })
+  });
+  return dispose
 }
 
 /**
