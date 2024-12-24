@@ -1942,5 +1942,17 @@
     "githubUrl": "https://github.com/FradSer/figma-xr-design-tools",
     "id": "1149634536150338038",
     "name": "XR Design Tools"
+  },
+  {
+    "authors": [
+      {
+        "name": "Omid Nikrah",
+        "url": "https://omid.toys"
+      }
+    ],
+    "description": "Easily generate sprite sheets and JSON metadata from icons selected in Figma.",
+    "githubUrl": "https://github.com/omidnikrah/figma-sprite-generator",
+    "id": "1424139256012895014",
+    "name": "GoodWay Sprite Generator"
   }
 ]
